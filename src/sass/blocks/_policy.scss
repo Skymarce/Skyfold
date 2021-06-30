@@ -1,0 +1,20 @@
+.policy {
+    padding: 60px 60px;
+    &__divider {
+        width: 60px;
+        height: 2px;
+        background-color: $main-color;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: $main-color;
+    }
+    &__part {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+}

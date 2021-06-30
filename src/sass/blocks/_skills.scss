@@ -1,0 +1,83 @@
+.skills {
+    padding-top: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 270px 270px 270px 270px;
+        grid-template-rows: 270px 270px;
+        column-gap: 13px;
+        row-gap: 13px;
+        padding: 60px 10px 0 10px;
+    }
+    &__technology {
+        &-item {
+            width: 270px;
+            height: 270px;
+            border: 2px solid #000;
+            &-1 {
+                display: grid;
+                grid-template-rows: 65px 155px;
+                align-items: center;
+                padding: 30px 30px 0 30px;
+                &-1 {
+                    align-items: none;
+                }
+                h4 {
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    &__descr {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+    }
+    &__wrapper-1 {
+        padding-top: 120px;
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 70px 70px;
+        column-gap: 45px;
+        row-gap: 30px;
+    }
+    &__level {
+        padding-top: 5px;
+        &-item {
+            position: relative;
+            display: grid;
+            grid-template-rows: 36px 14px;
+            row-gap: 14px;
+            justify-content: space-between;
+            align-content: space-between;
+            h4 {
+                position: absolute;
+                @include before_circle;
+                padding: 2px 0 0px 14px;
+            }
+        }
+        &-procent {
+            font-weight: 500;
+            font-size: 14px;
+            color: #000000;
+            margin: 0 0 0 auto;
+            top: 50%;
+        }
+        &-line {
+            position: relative;
+            width: 350px;
+            height: 14px;
+            background: #E8E4DE;
+            border-radius: 4px;
+            span {
+                position: absolute;
+                width: 350px;
+                height: 14px;
+                background: $main-color;
+                border-radius: 4px;
+            }
+        }
+    }  
+}
