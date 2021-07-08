@@ -39,6 +39,24 @@
             justify-content: center;
         }
     }
+    .portfolio {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 280px );
+            grid-auto-rows: 280px;
+            justify-content: space-around;
+            row-gap: 35px;
+            .horizonal, .vertical {
+                grid-row: unset;
+                grid-column: unset;
+            }
+        }
+    }
+    .contacts {
+        &__wrapper {
+            padding: 0;
+            grid-template-columns: 350px 585px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -75,6 +93,21 @@
         }
         &__wrapper-1 {
             column-gap: 20px;
+        }
+    }
+    .price {
+        &__wrapper {
+            padding: 0;
+            grid-template-columns: repeat(auto-fit, 350px);
+        }
+    }
+    .contacts {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: 585px;
+        }
+        &__photo {
+            display: none;
         }
     }
 }
@@ -142,6 +175,27 @@
             column-gap: 20px;
         }
     }
+    .portfolio {
+        padding-top: 40px;
+    }
+    .price {
+        padding-top: 40px;
+        &__wrapper {
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+    .contacts {
+        &__wrapper {
+            grid-template-columns: 545px;
+        }
+        &__form {
+            grid-template: 45px 190px 45px / repeat(2, 265px);
+        }
+        &__policy {
+            font-size: 11px;
+        }
+    }     
 }
 
 @media (max-width: 576px) {
@@ -206,6 +260,44 @@
             &-line {
                 width: 290px;
             }
+        }
+    }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 285px);
+        }
+    }
+    .contacts {
+        padding-bottom: 50px;
+        &__wrapper {
+            grid-template-columns: 300px;
+            justify-content: center;
+        }
+        &__form {
+            grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+        }
+        &__input {
+            width: 300px;
+        }
+        &__textarea {
+            grid-column: unset;
+            width: 100%;
+        }
+        &__triggers {
+            grid-column: unset;
+            grid-template-columns: 1fr;
+            column-gap: unset;
+            row-gap: 20px;
+        }
+        &__btn {
+            order: 2;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+        &__policy {
+            width: 180px;
+            margin: 0 auto;
+            line-height: 18px;
         }
     }
 }
