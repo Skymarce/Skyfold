@@ -1,15 +1,17 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    background: url('../../img/main_back.jpg') center center / cover no-repeat;
     padding-top: 205px;
     &__title {
         width: 535px;
         margin-top: 10px;
+        color: #fff;
     }
     &__subtitle {
         position: relative;
         z-index: 2;
+        color: #fff;
         @include before_circle;
         padding-left: 10px;
     }
@@ -21,11 +23,17 @@
         justify-content: space-between;
     }
     &__link {
-        color: black;
+        color: #000;
         font-weight: bold;
         &:hover {
-            color: black;
+            color: #fff;
             text-decoration: none;
+        }
+    }
+    .aboutme {
+        color: #fff;
+        &:hover {
+            color: rgb(182, 182, 182);
         }
     }
 }
