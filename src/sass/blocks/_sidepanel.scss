@@ -11,7 +11,11 @@
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: black;
+        background-color: #ffffff;
+    }
+    img {
+        width: 20px;
+        height: 20px;
     }
     &__text {
         height: 150px;
@@ -20,6 +24,7 @@
             transform: rotate(-90deg) translate(-30%, -268%);
             display: block;
             width: 150px;
+            color: #ffffff;
         }
     }
 }

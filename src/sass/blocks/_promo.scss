@@ -1,17 +1,31 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    background: url('../../img/main_black_2.jpg') center center / cover no-repeat;
     padding-top: 205px;
     &__title {
         width: 535px;
         margin-top: 10px;
+        color: #fff;
     }
     &__subtitle {
+        width: 455px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         position: relative;
         z-index: 2;
-        @include before_circle;
-        padding-left: 10px;
+        &-1 {
+            color: #fff;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    &__divider {
+        width: 285px;
+        height: 1px;
+        background-color: #fff;
     }
     &__btns {
         margin-top: 25px;
@@ -21,11 +35,32 @@
         justify-content: space-between;
     }
     &__link {
-        color: black;
+        color: #000;
         font-weight: bold;
         &:hover {
-            color: black;
+            color: #fff;
             text-decoration: none;
+        }
+    }
+    &__s {
+        position: absolute;
+        font-size: 560px;
+        font-weight: 700;
+        color: #fff;
+        left: 1208px;
+        top: -40px;
+    }
+    &__nickname {
+        padding-top: 150px;
+        position: absolute;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .aboutme {
+        color: #fff;
+        &:hover {
+            color: rgb(182, 182, 182);
         }
     }
 }

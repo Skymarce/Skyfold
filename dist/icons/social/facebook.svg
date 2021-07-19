@@ -1,3 +1,29 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.54mm" height="2.54mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 254 254"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white;fill-rule:nonzero}
+    .fil1 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="facebook_x0020__x0028_1_x0029_.svg">
+   <g>
+    <path class="fil0" d="M0.02 1984.38l0 9577.92c0,1094.09 890.28,1984.38 1984.38,1984.38l9577.92 0c1094.09,0 1984.38,-890.28 1984.38,-1984.38l-0.02 -3995.21 -4788.96 0 0.01 1587.5 -2381.25 0 -0.01 -1587.5 -1613.96 0c-1313.1,0 -2381.25,-1068.15 -2381.25,-2381.25l0.01 -2407.71 2381.25 0 0 2407.71 1613.96 0 0 -2407.71 2381.25 396.88 0 2010.83 4788.96 0 -0.01 -3201.46c0,-1094.09 -890.28,-1984.38 -1984.38,-1984.38l-9577.92 0c-1094.09,0 -1984.38,890.28 -1984.38,1984.38l0.02 0zm0 0z" data-original="#000000"/>
+   </g>
+  </g>
+  <g id="facebook_x0020__x0028_1_x0029_.svg_0">
+   <g>
+    <path class="fil1" d="M-0 41.22l0 179.58c0,20.52 16.69,37.21 37.21,37.21l179.58 0c20.52,0 37.21,-16.69 37.21,-37.21l0 -74.91 -89.79 0 0 29.77 -44.65 0 0 -29.77 -30.26 0c-24.62,0 -44.65,-20.02 -44.65,-44.65l0 -45.14 44.65 0 0 45.14 30.26 0 0 -45.14 44.65 7.44 0 37.7 89.79 0 0 -60.02c0,-20.52 -16.69,-37.21 -37.21,-37.21l-179.58 0c-20.52,0 -37.21,16.69 -37.21,37.21l0 0zm0 0z" data-original="#000000"/>
+   </g>
+  </g>
+ </g>
 </svg>
