@@ -1,9 +1,15 @@
 @import 'libs/bootstrap-reboot.min';
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-ExtraBold.ttf'), 
-        url('../fonts/Gilroy-Light.ttf');
-        
+    src: url('../fonts/Gilroy-ExtraBold.ttf'); 
+    font-weight: 700;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.ttf'); 
+    font-weight: 300;
+    font-style: normal;
 }
 
 @import 'base/variables';
