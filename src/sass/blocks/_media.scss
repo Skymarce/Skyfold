@@ -68,13 +68,16 @@
             font-size: 30px;
         }
     }
+    .promo {
+        min-height: 800px;
+    }
     .about {
         &__wrapper {
             grid-template-columns: 300px 380px;
         }
         &__skills {
             grid-template-columns: 380px;
-            grid-auto-rows: minmax(90px,auto);
+            grid-auto-rows: minmax(90px, auto);
             &-item {
                 grid-template-columns: 40px 320px;
                 column-gap: 20px;
@@ -130,9 +133,6 @@
             width: 300px;
         }
         &__divider {
-            display: none;
-        }
-        &__nickname {
             display: none;
         }
         &__subtitle-1 {
@@ -233,9 +233,22 @@
         }
     }
     .promo {
+        min-height: 700px;
+        .container {
+            padding: 0 25px;
+        }
         background: url('../img/main_black_2.jpg') no-repeat 100%/cover;
         &__btns {
             margin-top: 30px;
+        }
+        &__nickname {
+            margin: 0 auto;
+        }
+        &__title {
+            width: 250px;
+        }
+        &__subtitle {
+            width: 250px;
         }
     }
     .about {
